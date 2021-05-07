@@ -3,9 +3,10 @@ server:
 spring:
   application:
     name: CONFIGCLIENT
+  profiles:
+    active: dev
   #cloud:
     #consul:
       #host: localhost
       #port: 8500
-  profiles:
-    active: dev
+  
