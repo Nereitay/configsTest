@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: CONFIGCLIENT
-  cloud:
+  #cloud:
     #consul:
       #host: localhost
       #port: 8500
