@@ -4,8 +4,8 @@ spring:
   application:
     name: CONFIGCLIENT
   cloud:
-    consul:
-      host: localhost
-      port: 8500
+    #consul:
+      #host: localhost
+      #port: 8500
   profiles:
     active: dev
