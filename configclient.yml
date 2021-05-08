@@ -5,6 +5,12 @@ spring:
     name: CONFIGCLIENT
   profiles:
     active: dev
+  rabbitmq:
+    host: 192.168.136.129
+    port: 5672
+    username: ems
+    password: ems
+    virtual-host: /ems
   #cloud:
     #consul:
       #host: localhost
